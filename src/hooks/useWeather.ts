@@ -60,7 +60,7 @@ export default function useWeather() {
         setLoading(true)
         try {
             // Obtenemos primero Latitud y Longitud para hacer la llamada del clima
-            const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${search.city},${search.country}&appid=${appId}`
+            const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${search.city},${search.country}&appid=${appId}`
             const { data } = await axios(geoUrl) /* (.get) Por default */
 
             //Comprobamos si existe
