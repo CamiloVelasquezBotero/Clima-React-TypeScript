@@ -7,7 +7,7 @@ Este programa nos permite investigar el clima actual o o las temperaturas que ti
   - Html
   - Modulos de CSS
   - Hecho con Vite
-  - ZOD para asigna los types obtenidos de la API
+  - ZOD para asignar los types y validar los resultados de la API
   - Se mejora el performance renderizando componentes especificos
   - Creamos un hook personalizado para un mejor manejo de los datos en los componentes
 
