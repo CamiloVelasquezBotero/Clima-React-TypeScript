@@ -75,6 +75,7 @@ export default function useWeather() {
             // Hacemos la llamada del clima ya con los datos obtenidos
             const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appId}`            
 
+            // TYPE GUARD O ASSERTION
             // const { data:weatherResult } = await axios(weatherUrl)
             // const result = isWeatherResponse(weatherResult)
             // if(result) {
